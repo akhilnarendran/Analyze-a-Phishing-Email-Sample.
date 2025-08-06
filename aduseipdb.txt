@@ -1,0 +1,66 @@
+What is AbuseIPDB?
+
+AbuseIPDB is a crowdsourced IP address blacklist and reputation database that helps identify potentially abusive IP addresses. It allows network administrators, security professionals, and website owners to:
+
+    1.Report malicious IP addresses
+
+    2.Check if an IP has been involved in suspicious activities
+
+    3.Research historical data about IP reputation
+
+
+
+Key Features
+1. IP Lookup Tool
+
+    Check any IP address's reputation score (0-100, lower is worse)
+
+    View detailed reports of abuse categories (spam, brute force attacks, etc.)
+
+    See first/last report dates and total reports
+
+2. Reporting System
+
+    Users can submit reports about abusive IPs
+
+    Requires categorization (Brute Force, Hacking, Spam, etc.)
+
+    Accepts evidence (logs, timestamps, etc.)
+
+3. API Access
+
+    Allows integration with firewalls, SIEM systems, and web applications
+
+    Can automatically block or flag suspicious IPs
+
+4. Blacklist Downloads
+
+    Access to CSV lists of known malicious IPs
+
+    Regularly updated database
+
+
+
+Common Use Cases
+
+    Website administrators: Block known malicious IPs from accessing sites
+
+    Network security: Identify potential threats in server logs
+
+    Email administrators: Filter connections from IPs with spam history
+
+    Developers: Integrate IP checking into applications
+
+
+
+
+How It Works
+
+    Users worldwide submit reports about abusive IPs they encounter
+
+    AbuseIPDB aggregates and analyzes these reports
+
+    The system calculates reputation scores based on report volume, recency, and severity
+
+    Users can query the database to check IP reputations
+
